@@ -1,0 +1,7 @@
+*{
+    box-sizing: content-box;
+}
+main{
+    display: grid;
+    grid-template-columns: 2.2fr 5fr;
+}

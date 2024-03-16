@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Welcome</title>
+</head>
+<body class="p-2 bg-black text-white">
+    <main>
+        <div id="side-bar" >
+            <div id="menu" class="rounded-md mr-2 p-2 bg-zinc-900 opacity-90">
+                <ul class="p-4 text-xl text-white">
+                    <li>
+                        <a href="#"><i class="fa fa-home mt-3 mb-3 pr-4"></i>Início</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-search mt-3 mb-3 pr-4"></i>Buscar</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div id="user-lib" class="rounded-md mt-3 mr-2 p-2 pl-4 pr-4 bg-zinc-900 opacity-90">
+                <header class="mt-4 mb-4">
+                    <button>Sua Biblioteca</button>
+                    <button><i class="fa fa-plus"></i></button>
+                    <button><i class="fa fa-right-arrow"></i></button>
+                </header>
+
+                <div class="flex">
+                    <ul class="flex">
+                        <li class="bg-zinc-800 font-bold ml-3 mr-3 p-2 rounded-xl">
+                         <button>Playlists</button>
+                        </li>
+                        <li class="bg-zinc-800 font-bold ml-3 mr-3 p-2 rounded-xl">
+                            <button>Artistas</button>
+                        </li>
+                        <li class="bg-zinc-800 font-bold ml-3 mr-3 p-2 rounded-xl">
+                            <button>Álbuns</button>
+                        </li>
+                    </ul>
+                    <div>
+                        <button></button>
+                    </div>
+                </div>
+
+                <div>
+                    <ul class="flex justify-between mt-3 mb-3">
+                        <li><button><i class="fa fa-search"></i></button></li>
+                        <li><button>Recentes<i class="fa fa-"></i></button></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <div id="card" class="flex items-center h-[100px]">
+                        <div id="img" class="rounded-sm mr-4">
+                            <img src="imgs/generic/liked-songs-64.png" alt="liked-songs" class="rounded-md">
+                        </div>
+                        <div id="card-text">
+                            <h2 class="font-bold">Músicas Curtidas</h2>
+                            <p><span>Playlist</span>  <span>271 músicas</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="content" class="bg-gradient-to-b from-blue-900 to-zinc-900 rounded-md">
+
+        </div>
+    </main>
+</body>
+</html>
